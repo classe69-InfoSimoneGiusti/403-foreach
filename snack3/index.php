@@ -42,12 +42,9 @@ $posts = [
 
 
 foreach($posts as $data => $elencoPost) {
-
     echo "<h1>" . $data . "</h1>";
-
     foreach($elencoPost as $post) {
         echo "<p>" . $post['title'] . " " . $post['author'] . " " . $post['text'] .  "</p>";
     }
-    
 }
 ?>
